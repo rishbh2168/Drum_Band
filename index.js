@@ -26,37 +26,37 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
 
   switch (key) {
-    case "w1":
+    case "w":
       var tom11 = new Audio("tom-1.mp3");
       tom11.play();
       break;
 
-    case "a1":
+    case "a":
       var tom22 = new Audio("tom-2.mp3");
       tom22.play();
       break;
 
-    case "s1":
+    case "s":
       var tom33 = new Audio('tom-3.mp3');
       tom33.play();
       break;
 
-    case "d1":
+    case "d":
       var tom44 = new Audio('tom-4.mp3');
       tom44.play();
       break;
 
-    case "j1":
+    case "j":
       var snare1 = new Audio('snare.mp3');
       snare1.play();
       break;
 
-    case "k1":
+    case "k":
       var crash1 = new Audio('crash.mp3');
       crash1.play();
       break;
 
-    case "l1":
+    case "l":
       var kick1 = new Audio('kick-bass.mp3');
       kick1.play();
       break;
